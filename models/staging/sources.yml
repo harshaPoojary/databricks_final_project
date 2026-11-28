@@ -4,5 +4,10 @@ sources:
   - name: grocery_silver
     catalog: grocery_delivery_project
     schema: silver
+
     tables:
       - name: silver_table
+        description: "Initial Silver data"
+
+      - name: cleaned_incremental
+        description: "Cleaned incremental Batch 2 data"
