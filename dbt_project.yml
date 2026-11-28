@@ -18,19 +18,6 @@ clean-targets:
   - "dbt_packages"
 
 models:
-<<<<<<< HEAD
   grocery_delivery_project:
     staging:
       +materialized: view
-=======
-  grocery_delivery_analytics:
-
-    staging:
-      +materialized: view
-
-    intermediate:
-      +materialized: view
-
-    marts:
-      +materialized: table
->>>>>>> de148f3359acc6cebff68fc13aaa1aa3ff6c57cb
