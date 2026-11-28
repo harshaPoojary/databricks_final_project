@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: grocery_silver
+    catalog: grocery_delivery_project
+    schema: silver
+    tables:
+      - name: silver_table
